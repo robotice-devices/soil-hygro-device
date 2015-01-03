@@ -16,7 +16,6 @@ except Exception, e:
   plain = True
   LOG.debug("Robotice lib not found")
 
-
 def get_data(sensor):
 
     port = str(sensor.get('port'))
